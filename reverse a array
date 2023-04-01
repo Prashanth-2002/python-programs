@@ -1,0 +1,15 @@
+a=[]
+n=int(input("Enter the number of elements in array"))
+for i in range(0,n):
+  l=int(input())
+  a.append(l)
+print(a)
+3
+print("original array :")
+for i in range(0,n):
+     print(a[i])
+print("reversed array :")    
+for i in range(n-1,-1,-1):
+    print (a[i])
+    
+  
