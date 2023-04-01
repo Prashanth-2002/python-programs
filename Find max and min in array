@@ -1,0 +1,16 @@
+arr=[]
+n =int(input("Enter number of  elements in a array "))
+for  i in range (0,n):
+   l=int(input())
+   arr.append(l)
+
+max=arr[0]
+min=arr[0]
+
+for i in range (0,n):
+  if max<arr[i] :
+    max=arr[i]
+  elif min>arr[i]:
+    min=arr[i]
+print(max)
+print(min)
