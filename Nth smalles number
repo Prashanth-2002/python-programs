@@ -1,0 +1,9 @@
+arr=[]
+n=int(input("enter the number of elements in the array:"))
+for  i in range (0,n):
+ l=int(input())
+ arr.append(l)
+
+k=int(input("Enter the nth smallest number you want to find"))
+arr.sort()
+print(arr[k-1])
