@@ -1,0 +1,19 @@
+def counti(arr, x) :
+ 
+    count = 0
+    n = len(arr)
+    for i in range(n) :
+        if (arr[i] == x):
+            count += 1
+             
+    return count
+
+arr=[]
+n =int(input("Enter number of  elements in a array "))
+x=int(input("Enter the value you want to find the occurance of "))
+for  i in range (0,n):
+   l=int(input())
+   arr.append(l)
+
+ 
+print("This numbber occus "+str(counti(arr,x))+" times")
