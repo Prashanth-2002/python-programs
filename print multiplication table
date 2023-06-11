@@ -1,0 +1,6 @@
+number=int(input("enter a number "))
+
+for i in range(0,11):
+  product=number*i
+  equation=str(number)+"*"+str(i)+"="+str(product)
+  print(equation)
