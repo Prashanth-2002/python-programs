@@ -1,0 +1,11 @@
+string=input("Enter a string ")
+
+punctutations=input("Enter the punctutations: ")
+
+clean=""
+
+for char in string:
+  if char not in punctutations:
+    clean=clean+char
+
+print(clean)
