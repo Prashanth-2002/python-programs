@@ -1,0 +1,8 @@
+let user= prompt("Enter a number ");
+
+if(user>0)
+  console.log('it is positive ');
+else if (user<0)
+  console.log("It is negative");
+ else
+  console.log("Neither postivie nor negative");
