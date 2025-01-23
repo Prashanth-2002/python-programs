@@ -1,0 +1,24 @@
+# Online Python compiler (interpreter) to run Python online.
+# Write Python 3 code in this online editor and run it.a={print("Try programiz.pro")
+
+arr=[3,2,4,8]
+product=1
+total=0
+for i in arr:  
+ product=product*i
+
+print(product)
+
+for i in str(product):
+    total =total+int(i)
+    
+print(total)    
+    
+    
+ 
+
+
+
+
+
+    
