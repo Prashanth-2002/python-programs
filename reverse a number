@@ -1,0 +1,9 @@
+# Write Python 3 code in this online editor and run it.
+num=453
+rev=0
+while num>0 :
+ div=num%10
+ rev=rev*10+div
+ num=num//10
+
+print(rev)
